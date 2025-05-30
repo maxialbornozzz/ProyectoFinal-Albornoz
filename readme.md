@@ -1,10 +1,10 @@
 - GameNoz - Tienda Gamer -
 Un ecommerce sobre componentes y perifericos de computadoras.
 
-Agrega al carrito el componente/periferico que quieras.
-Mira el total y que los componentes/perifericos que hayas elegidos esten bien.
-Si los componentes/perifericos que seleccionaste estan mal, seleccionar el boton de eliminar del carrito.
-Finaliza la compra y completa el formulario para finalizar la compra.
+1- Agrega al carrito el componente/periferico que quieras.
+2- Mira el total y que los componentes/perifericos que hayas elegidos esten bien.
+3- Si los componentes/perifericos que seleccionaste estan mal, seleccionar el boton de eliminar del carrito.
+4- Finaliza la compra y completa el formulario para finalizar la compra.
 
 - Tecnologías usadas:
 HTML.
