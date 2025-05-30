@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "nombre": "Intel Core i9-13900K",
+    "precio": 815000,
+    "imagen": "./img/intelcorei9.jpg",
+    "descripcion": "Procesador Intel con 24 núcleos y 32 hilos"
+  },
+
+  {
+    "id": 2,
+    "nombre": "AMD Ryzen 9 7950X",
+    "precio": 728000,
+    "categoria": "procesadores",
+    "imagen": "./img/ryzen9-7950.jpg",
+    "descripcion": "Procesador AMD Ryzen 9 de 16 núcleos y 32 hilos"
+  },
+
+  {
+    "id": 3,
+    "nombre": "NVIDIA RTX 4090",
+    "precio": 3100000,
+    "categoria": "tarjetas-graficas",
+    "imagen": "./img/rtx4090.jpg",
+    "descripcion": "Tarjeta gráfica NVIDIA GeForce RTX 4090 con RTX"
+  },
+
+  {
+    "id": 4,
+    "nombre": "HyperX Cloud II",
+    "precio": 169990,
+    "categoria": "perifericos",
+    "imagen": "./img/hyperxcloud.webp",
+    "descripcion": "Auriculares gaming HyperX Cloud II con sonido 7.1 virtual"
+  },
+
+  {
+    "id": 5,
+    "nombre": "Logitech G Pro X",
+    "precio": 199990,
+    "categoria": "perifericos",
+    "imagen": "./img/logitechgprox.jpeg",
+    "descripcion": "Auriculares gaming Logitech G Pro X con sonido 7.1 virtual"
+
+  },
+
+  {
+    "id": 6,
+    "nombre": "ASUS ROG Strix White RTX 4080",
+    "precio": 2600000,
+    "categoria": "tarjetas-graficas",
+    "imagen": "./img/asus4080.jpg",
+    "descripcion": "Tarjeta gráfica ASUS ROG Strix White RTX 4080"
+  },
+
+  {
+    "id": 7,
+    "nombre": "Teclado Corsair K55",
+    "precio": 220500,
+    "categoria": "teclados",
+    "imagen": "./img/corsair.jpg",
+    "descripcion": "Teclado Corsair K55 RGB PRO XT"
+  }
+]

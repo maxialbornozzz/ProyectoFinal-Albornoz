@@ -1,0 +1,165 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: #00ffcc;
+}
+
+#carrito {
+  background-color: #00ffcc;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.producto {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.producto img {
+  width: 80%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.producto button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background-color: #00ffcc;
+  color: #000;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.carrito-modal {
+  display: none;
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-contenido {
+  background-color: #1e1e1e;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 12px;
+}
+
+.cerrar {
+  color: #aaa;
+  float: right;
+  font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.carrito-acciones {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.carrito-acciones button {
+  padding: 8px 15px;
+  background-color: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#carrito-items > div {
+  margin-bottom: 10px;
+}
+
+.form {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contenido-form {
+  background-color: #1e1e1e;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 12px;
+}
+
+#formulario-compra {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+#formulario-compra input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s;
+}
+
+#formulario-compra input:focus {
+  outline: none;
+  border-color: #00ffcc;
+}
+
+#formulario-compra button {
+  padding: 12px;
+  background-color: #00ffcc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#formulario-compra button:hover {
+  background-color: #00ffcc9a;
+}
